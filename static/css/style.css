@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fef6ff; /* Pastel pink */
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.dark {
+  background-color: #2e2e2e;
+  color: #fefefe;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff0f5; /* Light pink */
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #ba68c8; /* Purple-pink */
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #dab6fc; /* Light purple */
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ce93d8; /* Pink-purple */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ba68c8; /* Darker purple-pink */
+}
+
+.filters {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 2px solid #dab6fc; /* Light purple */
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.filters a:hover {
+  background-color: #dab6fc; /* Light purple */
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #fce4ec; /* Soft pink */
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.task-list li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.priority-low {
+  border-left: 6px solid #a5d6a7; /* Greenish */
+}
+
+.priority-medium {
+  border-left: 6px solid #fff59d; /* Yellowish */
+}
+
+.priority-high {
+  border-left: 6px solid #ef9a9a; /* Reddish */
+}
+
+.actions a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+}
+
+.theme-toggle {
+  text-align: right;
+  padding: 10px 20px;
+}
