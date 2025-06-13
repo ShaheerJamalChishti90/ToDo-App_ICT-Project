@@ -37,7 +37,6 @@ pastel-todo-list/
 *   **Flask:** A micro web framework for Python, used for building the web application backend.
 *   **HTML5:** Standard markup language for creating web pages.
 *   **CSS3:** Stylesheet language used for describing the presentation of a document written in HTML.
-*   **JavaScript:** Used for interactive elements, specifically the theme toggle functionality.
 
 ## Setup and Installation
 
