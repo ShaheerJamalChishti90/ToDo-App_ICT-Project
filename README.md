@@ -49,11 +49,11 @@ Make sure you have Python installed on your system. This project was developed w
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pastel-todo-list.git
+git clone https://github.com/ShaheerJamalChishti90/ToDo-App_ICT-Project.git
 cd pastel-todo-list
 ```
 
-(Note: Replace `YOUR_USERNAME` with your actual GitHub username and `pastel-todo-list` with your repository name if you fork it.)
+(Note: Replace `ShaheerJamalChishti90` with your actual GitHub username and `ToDo-App_ICT-Project` with your repository name if you fork it.)
 
 ### 2. Create a Virtual Environment (Recommended)
 
