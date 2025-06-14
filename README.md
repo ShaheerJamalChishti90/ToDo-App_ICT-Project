@@ -83,6 +83,8 @@ python app.py
 ### 5. Access the Application
 
 Open your web browser and navigate to `http://127.0.0.1:5000/` (or `http://localhost:5000/`).
+<br>
+This project is also live on MS Azure, you can access it through this link: ```https://pastel-todo-list-webapp-buftbabvegg6ecae.canadacentral-01.azurewebsites.net/```
 
 ## Usage
 
